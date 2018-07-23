@@ -1,0 +1,235 @@
+/*
+===========================================================
+
+[PAGE CSS ]
+
+    Version      :  1.0 
+
+    Author       :  Cadeniuc Ion 
+
+    My WebSite    :  www.cadeniuc.com
+
+    Author Phone   :  068580073
+
+    Author Email : icadeniuc16@gmail.com
+
+===========================================================
+*/
+@media only screen and (max-width: 1200px) {
+  body, html {
+    overflow-x: hidden; }
+  .topline {
+    padding: 15px 15px 7px; }
+  .topline nav a {
+    margin-right: 25px; }
+  .topline nav a:last-child {
+    margin-right: 0; }
+  .logo_footer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; }
+  .logo_footer img,
+  .logo img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block; }
+  header {
+    min-height: 700px;
+    display: block; }
+  .my_center_block_go {
+    display: block;
+    text-align: center; }
+  .my_center_block_go h1 {
+    font-size: 50px;
+    padding-top: 40%; }
+  .my_center_block_go h1 span {
+    font-size: 35px; }
+  .contacts_phone_go {
+    position: relative;
+    right: 0;
+    bottom: 30%; }
+  .contacts_phone_go p {
+    text-align: center; }
+  .clients_icon_go:last-child .starts_logo_clients:first-child,
+  .clients_icon_go:last-child .starts_logo_clients:last-child,
+  .clients_icon_go:last-child .starts_logo_clients:nth-child(4) {
+    display: none; }
+  .case .prev_2 {
+    position: absolute;
+    left: -40.5px;
+    top: 35%; }
+  .case .next_2 {
+    position: absolute;
+    right: -40.5px;
+    top: 35%; } }
+@media only screen and (max-width: 1024px) {
+  .case .prev_2 {
+    position: absolute;
+    left: -30.5px;
+    top: 35%; }
+  .case .next_2 {
+    position: absolute;
+    right: -30.5px;
+    top: 35%; } }
+@media only screen and (max-width: 992px) {
+  .case .prev_2 {
+    left: 30.5px;
+    top: -120px; }
+  .case .next_2 {
+    right: 30.5px;
+    top: -120px; }
+  .topline {
+    background-color: #00263c; }
+  .nav {
+    position: absolute;
+    left: 0;
+    z-index: -99;
+    width: 100vw;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 0;
+    text-align: center;
+    padding: 70px 15px 20px;
+    background-color: #00263c;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; }
+  .topline nav a {
+    margin-right: 0;
+    margin-bottom: 15px; }
+  .topline nav a::after {
+    display: none; }
+  .nav-toggle {
+    display: block; }
+  .topform {
+    margin-left: auto;
+    margin-right: 20px; }
+  .my_rows_go .start_advantages_go:nth-child(5n) {
+    clear: none; }
+  .starts_logo_clients {
+    width: 25%; }
+  .team .prev {
+    position: absolute;
+    left: -5px;
+    top: 30%; }
+  .team .next {
+    position: absolute;
+    right: -5px;
+    top: 30%; } }
+@media only screen and (max-width: 770px) {
+  .my_center_block_go h1 {
+    font-size: 30px; }
+  .my_center_block_go h1 span {
+    letter-spacing: 10px; }
+  .contacts_phone_go p {
+    font-size: 19px; }
+  header {
+    min-height: 550px; }
+  .starts_logo_clients {
+    width: 50%;
+    padding: 0 15px; }
+  .clients_icon_go,
+  .clients_icon_go:last-child {
+    left: 0; }
+  .section_clients {
+    min-height: auto; }
+  .section_clients {
+    background-position: top right; }
+  #map {
+    height: 320px; }
+  .contacts span {
+    text-align: center;
+    display: block; }
+  .contacts span:after {
+    margin: 20px auto 30px; }
+  .team {
+    padding: 100px 0 80px; }
+  .contacts {
+    padding: 90px 0; } }
+@media only screen and (max-width: 640px) {
+  .case .prev_2 {
+    left: 15.5px;
+    top: -115px; }
+  .case .next_2 {
+    right: 15.5px;
+    top: -115px; }
+  .topform {
+    display: none; }
+  .navform {
+    display: block;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-top: 15px; }
+  .adress_go,
+  .right_go {
+    float: none;
+    width: 100%; }
+  .right_go a {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px; }
+  .right_go a.phone {
+    margin-left: 0; }
+  .logo_footer img {
+    margin-left: 15px; }
+  .start_advantages_go p {
+    font-size: 12px; }
+  .advantages_go h2,
+  .section_clients h2,
+  .team h2,
+  .case h2,
+  .contacts h2 {
+    font-size: 25px; }
+  .contacts span {
+    font-size: 18px; }
+  /* .my_center_block_go h1 {
+		padding-top: 40px;
+	}
+	.contacts_phone_go {
+		margin-top: 60px;
+	} */
+  header {
+    min-height: auto;
+    padding-bottom: 50px; }
+  .team-carousel__item img {
+    max-width: 300px;
+    margin-bottom: 50px; } }
+@media only screen and (max-width: 500px) {
+  .my_center_block_go h1 {
+    font-size: 18px; }
+  .my_center_block_go h1 i u {
+    right: -10px;
+    top: 2px;
+    font-size: 10px; }
+  .wow {
+    visibility: visible !important; }
+  .contacts_phone_go p {
+    color: #fff !important; }
+  .team {
+    padding: 80px 0 50px; } }
+@media only screen and (max-width: 402px) {
+  .my_rows_go .start_advantages_go:nth-child(5n) {
+    clear: both; }
+  .advantages_go h2:after, .section_clients h2:after,
+  .advantages_go h2:before, .section_clients h2:before,
+  .team h2:after, .team h2:before,
+  .case h2:after, .case h2:before,
+  .contacts h2:after, .contacts h2:before {
+    display: none; }
+  .starts_logo_clients img {
+    max-width: 65%; }
+  .team-carousel__item img {
+    max-width: 200px; } }

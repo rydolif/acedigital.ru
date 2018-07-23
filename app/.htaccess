@@ -1,0 +1,27 @@
+AddDefaultCharset UTF-8
+
+Options -Indexes
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www.acedigital.su$ [NC]
+RewriteRule ^(.*)$ http://acedigital.ru/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^acedigital.su$ [NC]
+RewriteRule ^(.*)$ http://acedigital.ru/$1 [L,R=301]
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access 5 seconds"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresByType application/x-shockwave-flash "access 1 year"
+ExpiresByType application/javascript "access 1 year"
+ExpiresByType application/x-javascript "access 1 year"
+ExpiresByType text/css "access 1 year"
+ExpiresByType text/html "access 1 year"
+ExpiresByType text/javascript "access 1 hours"
+</IfModule>

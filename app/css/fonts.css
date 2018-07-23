@@ -1,0 +1,42 @@
+/*
+===========================================================
+
+[PAGE CSS ]
+
+    Version      :  1.0 
+
+    Author       :  Cadeniuc Ion 
+
+    My WebSite    :  www.cadeniuc.com
+
+    Author Phone   :  068580073
+
+    Author Email : icadeniuc16@gmail.com
+
+===========================================================
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*font-family: 'Roboto', sans-serif;*/
+/* font-family: "Bebas"; */
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeueThin/BebasNeueThin.eot");
+  src: url("../fonts/BebasNeueThin/BebasNeueThin.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueThin/BebasNeueThin.woff") format("woff"), url("../fonts/BebasNeueThin/BebasNeueThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100; }
+
+/* font-family: "NeoSansProRegular"; */
+@font-face {
+  font-family: "NeoSansProRegular";
+  src: url("../fonts/NeoSansProRegular/NeoSansProRegular.eot");
+  src: url("../fonts/NeoSansProRegular/NeoSansProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/NeoSansProRegular/NeoSansProRegular.woff") format("woff"), url("../fonts/NeoSansProRegular/NeoSansProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+
+/* font-family: "NeoSansProLight"; */
+@font-face {
+  font-family: "NeoSansProLight";
+  src: url("../fonts/NeoSansProLight/NeoSansProLight.eot");
+  src: url("../fonts/NeoSansProLight/NeoSansProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/NeoSansProLight/NeoSansProLight.woff") format("woff"), url("../fonts/NeoSansProLight/NeoSansProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
